@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Reverse string</title>
+    </head>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .top-heading{
+            text-align: center;
+            font-size: 3rem;
+            font-family: monospace;
+        }
+        input{
+            padding:10px 15px;
+            width:30%;
+            position:relative;
+            margin-right:20px;
+            top:150px;
+            left:220px;
+            font-size: 1rem;
+            outline:none;
+        }
+        input:focus{
+            border:none;
+            box-shadow: 0 0 10px #667ad1;
+        }
+        @media screen and (max-width:950px){
+            input{
+                left:200px;
+                width:30%;
+            }
+
+        }
+        @media screen and (max-width:750px){
+            input{
+                left:100px;
+                width:40%;
+            }
+        }
+        @media screen and (max-width:550px){
+            input{
+                padding:10px 10px;
+                left:80px;
+                width:70%;
+                margin-top:15px;
+            }
+        }
+        @media screen and (max-width:400px){
+            h3{
+                font-size: 2.5rem;
+            }
+            input{
+                left:50px;
+                top:50px;
+            }
+        }
+        @media screen and (max-width:250px){
+            h3{
+                font-size: 2.5rem;
+            }
+            input{
+                left:30px;
+                width:80%;
+            }
+        }
+
+    </style>
+    <body>
+        <div class="top-heading">
+            <h3>Reverse string</h3>
+        </div>
+        <input type="text" name="" id="mainString" placeholder="Enter the String" onkeyup="reverse()">
+        <input type="text" name="" id="reverseString">
+        
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
